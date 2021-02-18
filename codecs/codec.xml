@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<codec-list>
+	<codec name="AMR">
+		<encoder path="./encoder_VAD1">
+			<args>
+				<arg name="mode" default="-dtx MR122"/>
+				<arg name="filein"/>
+				<arg name="fileout"/>
+			</args>
+		</encoder>
+		<decoder path="./decoder_VAD1">
+			<args>
+				<arg name="filein"/>
+				<arg name="fileout"/>
+			</args>
+		</decoder>
+	</codec>
+	<codec name="AMR2">
+		<encoder path="./encoder_VAD2">
+			<args>
+				<arg name="mode" default="-dtx MR122"/>
+				<arg name="filein"/>
+				<arg name="fileout"/>
+			</args>
+		</encoder>
+		<decoder path="./decoder_VAD2">
+			<args>
+				<arg name="filein"/>
+				<arg name="fileout"/>
+			</args>
+		</decoder>
+	</codec>
+</codec-list>
