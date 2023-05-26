@@ -1,5 +1,9 @@
 # Speech_Encryption
 
+26/05/2022, Paris, France
+
+UPDATE: the code is currently available at: https://osf.io/gujfp/ .
+
 14/12/2020, Sophia Antipolis, France
 
 Due to storage limitations, recordings have been moved to Google Drive (link below):
